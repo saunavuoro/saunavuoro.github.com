@@ -1,0 +1,27 @@
+---
+layout: default
+title: Saunavuoro
+---
+
+h2. WTF?
+
+Saunavuoron tarkoituksena on ohjelmoida ja pitää hauskaa muiden koodaamisesta kiinnostuneiden kanssa. Ryhmä on toistaiseksi avoinna pelkästään "houston-inc":http://www.houston-inc.com/ työntekijöille.  
+
+h2. RTFM.
+
+Meillä on IRC-kanava osoittessa:
+
+Jos haluat mainostaa omaa projektiasi tässä TAI muuten vaan muuttaa näitä sivuja toimi seuraavasti:
+# forkkaa "https://github.com/saunavuoro/saunavuoro.github.com":https://github.com/saunavuoro/saunavuoro.github.com
+# tee muutokset omassa forkissasi   _projektit löytyvät *_posts* kansiosta_
+# tee muutoksistasi "pull request":http://help.github.com/send-pull-requests/
+# odota että joku projektin omistajista hyväksyy muutoksesi
+
+h2. OMG!
+
+<ul class="projects">
+{% for post in site.posts %}
+<li><span>{{ post.category }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+

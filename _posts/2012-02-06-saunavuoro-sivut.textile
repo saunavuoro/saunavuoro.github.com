@@ -1,0 +1,12 @@
+---
+layout: default
+title: Saunavuoro sivut
+category: html/css
+---
+h2. {{ page.title }}
+
+Nämä sivut tarvii faceliftin. Käyttää "jekyll":https://github.com/mojombo/jekyll sivu generaattoria. 
+
+kieli: html/css
+projektin sivut: "https://github.com/saunavuoro/saunavuoro.github.com":https://github.com/saunavuoro/saunavuoro.github.com
+omistaja: Heikki Uljas

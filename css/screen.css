@@ -1,0 +1,109 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline-style:none;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  margin-bottom: 1em;  
+}
+
+footer {
+  color: #999;
+  margin-top: 1em;
+  font-size: 80%;
+}
+
+body {
+  background-color: #ddd;
+  font: 15px Tahoma, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 600%;
+  color: #000;
+  line-height: 80%;
+  margin: 3px 0 11px;
+  font-family: Tahoma, arial;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 100%;
+  margin: 0.3em 0;
+}
+
+h2 a, h3 a, h2 a:visited, h3 a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+h2 a:hover, h3 a:hover {
+  color: #999;
+}
+
+h3, span.head {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Oswald', arial;
+  margin: 0.3em 0 0;
+}
+
+h4, h5, h6 {
+  font-size: 100%;
+  font-family: arial;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #03a;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: #28a;
+}
+
+table {
+  font-size: inherit;
+}
+
+ul, ol {
+  margin-left: 21px;
+}
+
+/************/
+/* Site
+/************/
+
+#wrapper {
+  text-align: justify;
+  width: 900px;
+  margin: 2px auto 2em auto;
+  line-height: 1.5em;
+  background-color: #fff;
+  padding: 5px 21px;
+  position: relative;
+}
+
+
