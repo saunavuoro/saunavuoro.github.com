@@ -2,6 +2,8 @@ h1. Saunavuoro
 
 Epävirallinen todellisuudesta vierautuneiden tapakoodareiden vertaisryhmä.
 
+Tulin, näin, forkkasin.
+
 
 
 
