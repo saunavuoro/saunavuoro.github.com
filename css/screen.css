@@ -73,15 +73,11 @@ p {
 }
 
 a {
-  color: #03a;
+  color: #000;
 }
 
-a:hover {
-  color: black;
-}
-
-a:visited {
-  color: #28a;
+a:visited, a:hover {
+  color: #333;
 }
 
 table {
@@ -104,6 +100,10 @@ ul, ol {
   background-color: #fff;
   padding: 5px 21px;
   position: relative;
+}
+
+#irc, #calendar {
+  display: none;  
 }
 
 

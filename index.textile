@@ -5,11 +5,25 @@ title: Saunavuoro
 
 h2. WTF?
 
-Saunavuoron tarkoituksena on ohjelmoida ja pitää hauskaa muiden koodaamisesta kiinnostuneiden kanssa. Ryhmä on toistaiseksi avoinna pelkästään "houston-inc":http://www.houston-inc.com/ työntekijöille.  
+Saunavuoron tarkoituksena on ohjelmoida ja pitää hauskaa muiden vapaa-ajalla koodaamisesta kiinnostuneiden kanssa. Ryhmä on toistaiseksi avoinna pelkästään "houston-inc":http://www.houston-inc.com/ työntekijöille.
+
+Jos sinulla on jokin oma projekti jota työstät tai haluat auttaa muita heidän omissa projekteissaan liity ihmeessa mukaan!
 
 h2. RTFM.
 
-Meillä on IRC-kanava osoittessa:
+Ryhmä kokoontuu säännöllisesti viikottain, tarkista seuraava kokoontuminen <a class="toggle" href="#calendar">kalenterista</a>. 
+
+<div id="calendar">
+<iframe src="https://www.google.com/calendar/embed?src=q67cf3v7t5tg2pu48opq6j2ln8%40group.calendar.google.com&ctz=Europe/Helsinki" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+Pääasiallisena kommunikaatio kanavana toimii IRC kanava <a class="toggle" href="#irc">http://webchat.quakenet.org/?channels=sauna-vuoro&uio=d4</a>. 
+
+<div id="irc">
+<iframe src="http://webchat.quakenet.org/?channels=sauna-vuoro&uio=d4" width="850" height="400"></iframe>
+</div>
+
+Projektien jakamiseen käytetään "github:ia":https://github.com, joten jokaisen tulee luoda sinne itselleen tili. Profiilikuvan kukin voi asettaa itselleen "gravatar":http://www.gravatar.com palvelussa.
 
 Jos haluat mainostaa omaa projektiasi tässä TAI muuten vaan muuttaa näitä sivuja toimi seuraavasti:
 # forkkaa "https://github.com/saunavuoro/saunavuoro.github.com":https://github.com/saunavuoro/saunavuoro.github.com
@@ -17,11 +31,30 @@ Jos haluat mainostaa omaa projektiasi tässä TAI muuten vaan muuttaa näitä si
 # tee muutoksistasi "pull request":http://help.github.com/send-pull-requests/
 # odota että joku projektin omistajista hyväksyy muutoksesi
 
-h2. OMG!
+h2. Projects
+
+Alla projekteja joihin kaivataan auttavia käsiä.
 
 <ul class="projects">
 {% for post in site.posts %}
-<li><span>{{ post.category }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><span>{{ post.category }}</span> &raquo; <a target="blank" href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+
+
+h2. Enlisted
+
+
+<img src="https://secure.gravatar.com/avatar/3eba81abd06860d82e300b4d756e367d?s=20"> "huljas":https://github.com/huljas <img src="https://secure.gravatar.com/avatar/4d0bd0045b39fff6f0722844113ae6b6?s=20"> "pekkahaka":https://github.com/pekkahaka
+
+
+<script>
+$(function() {
+	$("a.toggle").click(function() {
+		$($(this).attr("href")).toggle();
+		return false;
+	});
+});
+</script>
+
 
