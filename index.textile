@@ -45,7 +45,7 @@ Alla projekteja joihin kaivataan auttavia käsiä.
 h2. Enlisted
 
 
-<img src="https://secure.gravatar.com/avatar/3eba81abd06860d82e300b4d756e367d?s=20"> "huljas":https://github.com/huljas <img src="https://secure.gravatar.com/avatar/4d0bd0045b39fff6f0722844113ae6b6?s=20"> "pekkahaka":https://github.com/pekkahaka
+<img src="https://secure.gravatar.com/avatar/3eba81abd06860d82e300b4d756e367d?s=20"> "huljas":https://github.com/huljas <img src="https://secure.gravatar.com/avatar/4d0bd0045b39fff6f0722844113ae6b6?s=20"> "pekkahaka":https://github.com/pekkahaka <img src="https://secure.gravatar.com/avatar/6294017b219ded05f93ebb57684accd0?s=20"> "tco":https://github.com/tco/
 
 
 <script>
