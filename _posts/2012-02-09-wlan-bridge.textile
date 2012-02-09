@@ -1,0 +1,18 @@
+---
+layout: default
+title: WlanBridge
+---
+h2. {{ page.title }}
+
+Idea on sellainen sovellus jolla voi kauko-ohjata tietsikkaa saman WLAN verkon yli.
+-Esim. "Kaukos‰‰din" Spotifylle, Windows mediaplayerilla, VLC:lle.
+-L‰het‰ kuvat puhelimesta n‰pp‰r‰sti ilman johtoja koneelle.
+-Muuta hienoa...
+
+T‰st‰ on tehty (ainakin joskus toimiva) TCP serveri Windows koneelle, jota k‰skytt‰‰ Android clientti.
+Kommunikointi protokola on Googlen Protocol buffers. (voidaan muuttaa perus RESTIKSI jotta JMVC:ll‰ olisi helpompaa)
+
+Teknologia Client: JMVC, Phonegap, Android....
+Teknologia Server: Qt tai NodeJS
+projektin sivut: tbd
+omistaja: Hannu-Pee
