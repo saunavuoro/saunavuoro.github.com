@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ApMech-sivut
-category: html/css
+title: ApMech-nettipeli
+category: c++
 ---
 h2. {{ page.title }}
 
