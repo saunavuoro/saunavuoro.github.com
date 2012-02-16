@@ -25,11 +25,7 @@ Pääasiallisena kommunikaatio kanavana toimii IRC kanava <a class="toggle" href
 
 Projektien jakamiseen käytetään "github:ia":https://github.com, joten jokaisen tulee luoda sinne itselleen tili. Profiilikuvan kukin voi asettaa itselleen "gravatar":http://www.gravatar.com palvelussa.
 
-Jos haluat mainostaa omaa projektiasi tässä TAI muuten vaan muuttaa näitä sivuja toimi seuraavasti:
-# forkkaa "https://github.com/saunavuoro/saunavuoro.github.com":https://github.com/saunavuoro/saunavuoro.github.com
-# tee muutokset omassa forkissasi   _projektit löytyvät *_posts* kansiosta_
-# tee muutoksistasi "pull request":http://help.github.com/send-pull-requests/
-# odota että joku projektin omistajista hyväksyy muutoksesi
+Jos haluat mainostaa omaa projektiasi tee asiasta "issue":https://github.com/saunavuoro/saunavuoro.github.com/issues githubiin. Muista liittää mukaan osoite projektisi github sivulle.
 
 h2. Projects
 
@@ -41,6 +37,9 @@ Alla projekteja joihin kaivataan auttavia käsiä.
 {% endfor %}
 </ul>
 
+Jos sinulla ei ole juuri nyt sopivaa projektia kokeila vaikka näitä harjoituksia:
+
+* "Instagram Engineering Challenge: The Unshredder":http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder
 
 h2. Enlisted
 
