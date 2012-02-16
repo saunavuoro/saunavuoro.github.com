@@ -9,10 +9,22 @@ Idea on sellainen sovellus jolla voi kauko-ohjata tietsikkaa saman WLAN verkon y
 -L‰het‰ kuvat puhelimesta n‰pp‰r‰sti ilman johtoja koneelle.
 -Muuta hienoa...
 
+<depricated>
 T‰st‰ on tehty (ainakin joskus toimiva) TCP serveri Windows koneelle, jota k‰skytt‰‰ Android clientti.
 Kommunikointi protokola on Googlen Protocol buffers. (voidaan muuttaa perus RESTIKSI jotta JMVC:ll‰ olisi helpompaa)
+</depricated>
 
-Teknologia Client: JMVC, Phonegap, Android....
-Teknologia Server: Qt tai NodeJS
+Andreaksen mahtavan HTML5 workshopin innottamana idea olisi k‰ytt‰‰ t‰ss‰ vain kuuminta shitti‰! 
+Eli tarkoitus olisi k‰ytt‰‰ Node.js, HTML5, socket.io, Phonegap.
+
+T‰ss‰ idea lyhyesti:
+-Serveri olis Node.js joka kuuntelee kahta porttia. Admin portti ja client portti (ehk‰ myˆs broadcast portti) jos halutaan
+etsi‰ serveri‰ WLAN verkosta.
+
+-Client voi aluksi olla vaikka ihan selain joka portataan aikanaan Phonegapilla puhelin sovellukseksi.
+
+
+Teknologia Client: JMVC, Phonegap, Socket.io, HTML5, Android....
+Teknologia Server: NodeJS
 projektin sivut: tbd
 omistaja: Hannu-Pee
