@@ -10,5 +10,5 @@ on ajan myötä degeneroitunut hitaasti ja orgaanisesti kasvavaksi harjoitusalus
 Tavoitteena olisi saada ensimmäinen release ulos kohtalaisella ulkoasulla ja pelattavuudella.
 
 kieli: C++
-projektin sivut: ei olemassa vielä.
+projektin sivut: https://github.com/jdahlbom/ApMech
 omistaja: jdahlbom
