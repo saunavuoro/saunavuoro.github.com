@@ -106,4 +106,24 @@ ul, ol {
   display: none;  
 }
 
+table {
+  
+}
 
+tr {
+  padding: 3px 0;
+}
+
+td, th {
+  padding: 2px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  color: #999;
+}
+
+tr:nth(1) {
+  background-color: #eee;
+}
