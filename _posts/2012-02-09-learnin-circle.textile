@@ -12,5 +12,5 @@ Käyttäjä tallentaa itse sanoja/lauseita joita haluaa oppia ja sovellus sitten
 Periaatteessa tällä voi opetella mitä tahansa jossa on selkeitä kysymyksiä ja niihin vastauksia.
 
 kieli: scala
-projektin sivut: tbd
+projektin sivut: https://github.com/hmeltaus/learning-circle
 omistaja: hmeltaus
