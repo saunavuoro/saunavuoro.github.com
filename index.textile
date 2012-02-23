@@ -34,7 +34,7 @@ Alla työstettäviä projekteja:
 |_. Nimi |_. Teknologia |_. Omistaja |_. Kuvaus |
 | "ApMech-nettipeli":https://github.com/jdahlbom/ApMech | C++ | Jukka Dahlblom | ApMech on kaveriporukan vuosikausia kestänyt nettipeliharjoitelma C++:lla, joka on ajan myötä degeneroitunut hitaasti ja orgaanisesti kasvavaksi harjoitusalustaksemme. 
 Tavoitteena olisi saada ensimmäinen release ulos kohtalaisella ulkoasulla ja pelattavuudella. |
-| Learnincircle | Scala | Henri Meltaus | Idea on sellainen sovellus jolla voi opettaa itselleen jotain vierasta kieltä, enkä tarkoita ohjelmointikieliä. 
+| "Learnincircle":https://github.com/hmeltaus/learning-circle | Scala | Henri Meltaus | Idea on sellainen sovellus jolla voi opettaa itselleen jotain vierasta kieltä, enkä tarkoita ohjelmointikieliä. 
 Käyttäjä tallentaa itse sanoja/lauseita joita haluaa oppia ja sovellus sitten kyselee näitä häneltä pitäen samalla tilastoa miten on oppia kertynyt päähän. Sen perusteella voidaan keskittyä niihin sanoihin jotka ei ole vielä hallussa. |
 | "PersonalServer":https://github.com/pekkahaka/PersonalServer | JMVC, Phonegap, Socket.io, HTML5, Android, nodejs | Hannu-Pee | Andreaksen mahtavan HTML5 workshopin innottamana idea olisi käyttää tässä vain kuuminta shittiä! 
 Eli tarkoitus olisi käyttää Node.js, HTML5, socket.io, Phonegap.
