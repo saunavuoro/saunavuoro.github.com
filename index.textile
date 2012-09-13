@@ -7,19 +7,18 @@ title: Saunavuoro
     <h1>Saunavuoro</h2>
     <p>lämpiää joka torstai</p>
     <img src="vihta.png"></img>
-    <p><a class="btn btn-primary btn-large toggle">#IRC</a></p>
+    <p><a class="btn btn-primary btn-large toggle">IRC &raquo;</a></p>
 </div>
 
-<div id="irc">
-<iframe src="http://webchat.quakenet.org/?channels=sauna-vuoro&uio=d4" width="850" height="400"></iframe>
+<div id="irc" style="display:none;">
+<iframe src="http://webchat.quakenet.org/?channels=sauna-vuoro" width="647" height="400"></iframe>
 </div>
 
 <script>
 $(function() {
-    $(".toggle").click(
-        $($(this).attr("href")).toggle();
-    );
-    $("#irc").hide();
+    $(".toggle").click(function() {
+        $("#irc").toggle();
+    });
 });
 </script>
 
