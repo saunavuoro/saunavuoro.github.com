@@ -3,63 +3,23 @@ layout: default
 title: Saunavuoro
 ---
 
-h2. WTF?
-
-Saunavuoron tarkoituksena on ohjelmoida ja pitää hauskaa muiden vapaa-ajalla koodaamisesta kiinnostuneiden kanssa. Ryhmä on toistaiseksi avoinna pelkästään "houston-inc":http://www.houston-inc.com/ työntekijöille.
-
-Jos sinulla on jokin oma projekti jota työstät tai haluat auttaa muita heidän omissa projekteissaan liity ihmeessa mukaan!
-
-h2. RTFM.
-
-Ryhmä kokoontuu säännöllisesti viikottain, tarkista seuraava kokoontuminen <a class="toggle" href="#calendar">kalenterista</a>. 
-
-<div id="calendar">
-<iframe src="https://www.google.com/calendar/embed?src=q67cf3v7t5tg2pu48opq6j2ln8%40group.calendar.google.com&ctz=Europe/Helsinki" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="hero-unit">
+    <h1>Saunavuoro</h2>
+    <p>lämpiää joka torstai</p>
+    <img src="vihta.png"></img>
+    <p><a class="btn btn-primary btn-large toggle">#IRC</a></p>
 </div>
-
-Pääasiallisena kommunikaatio kanavana toimii IRC kanava <a class="toggle" href="#irc">http://webchat.quakenet.org/?channels=sauna-vuoro&uio=d4</a>. 
 
 <div id="irc">
 <iframe src="http://webchat.quakenet.org/?channels=sauna-vuoro&uio=d4" width="850" height="400"></iframe>
 </div>
 
-Projektien jakamiseen käytetään "github:ia":https://github.com, joten jokaisen tulee luoda sinne itselleen tili. Profiilikuvan kukin voi asettaa itselleen "gravatar":http://www.gravatar.com palvelussa.
-
-Jos haluat mainostaa omaa projektiasi tee asiasta "issue":https://github.com/saunavuoro/saunavuoro.github.com/issues githubiin. Muista liittää mukaan osoite projektisi github sivulle.
-
-h2. Projects
-
-Alla työstettäviä projekteja:
-
-|_. Nimi |_. Teknologia |_. Omistaja |_. Kuvaus |
-| "ApMech-nettipeli":https://github.com/jdahlbom/ApMech | C++ | Jukka Dahlblom | ApMech on kaveriporukan vuosikausia kestänyt nettipeliharjoitelma C++:lla, joka on ajan myötä degeneroitunut hitaasti ja orgaanisesti kasvavaksi harjoitusalustaksemme. 
-Tavoitteena olisi saada ensimmäinen release ulos kohtalaisella ulkoasulla ja pelattavuudella. |
-| Learnincircle | Scala | Henri Meltaus | Idea on sellainen sovellus jolla voi opettaa itselleen jotain vierasta kieltä, enkä tarkoita ohjelmointikieliä. 
-Käyttäjä tallentaa itse sanoja/lauseita joita haluaa oppia ja sovellus sitten kyselee näitä häneltä pitäen samalla tilastoa miten on oppia kertynyt päähän. Sen perusteella voidaan keskittyä niihin sanoihin jotka ei ole vielä hallussa. |
-| "PersonalServer":https://github.com/pekkahaka/PersonalServer | JMVC, Phonegap, Socket.io, HTML5, Android, nodejs | Hannu-Pee | Andreaksen mahtavan HTML5 workshopin innottamana idea olisi käyttää tässä vain kuuminta shittiä! 
-Eli tarkoitus olisi käyttää Node.js, HTML5, socket.io, Phonegap.
-Tässä idea lyhyesti:
--Serveri olis Node.js joka kuuntelee kahta porttia. Admin portti ja client portti (ehkä myös broadcast portti) jos halutaan
-etsiä serveriä WLAN verkosta.
--Client voi aluksi olla vaikka ihan selain joka portataan aikanaan Phonegapilla puhelin sovellukseksi. |
-| "jpek-dekooderi":https://github.com/huljas/jpek | Java | huljas | JPEG-dekooderi Javalla. Lukee kuvan tiedostosta ja piirtää sen ruudulle. Sain inspiraation kun huomasin että SDK käyttää natiivi apia kuvien lukemiseen. |
-
-Projekteista kiinnostuneet ottakaa yhteyttä projektin omistajaan.
-
-Mikäli mikään juuri nyt natsaa voit kokeilla vaikka näitä harjoituksia:
-
-* "Instagram Engineering Challenge: The Unshredder":http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder
-
-h2. Enlisted
-
-<img src="https://secure.gravatar.com/avatar/3eba81abd06860d82e300b4d756e367d?s=20"> "huljas":https://github.com/huljas <img src="https://secure.gravatar.com/avatar/4d0bd0045b39fff6f0722844113ae6b6?s=20"> "pekkahaka":https://github.com/pekkahaka <img src="https://secure.gravatar.com/avatar/6294017b219ded05f93ebb57684accd0?s=20"> "tco":https://github.com/tco/ <img src="https://secure.gravatar.com/avatar/d17281af66497bf6dfcde0fd49632bd3?s=20"> "koodiohto":https://github.com/koodiohto <img src="https://secure.gravatar.com/avatar/6bf5157b40b7b50a783547ae3b6a698e?s=20"> "jdahlbom":https://github.com/jdahlbom
-
 <script>
 $(function() {
-	$("a.toggle").click(function() {
-		$($(this).attr("href")).toggle();
-		return false;
-	});
+    $(".toggle").click(
+        $($(this).attr("href")).toggle();
+    );
+    $("#irc").hide();
 });
 </script>
 
